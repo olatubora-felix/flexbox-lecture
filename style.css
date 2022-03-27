@@ -1,0 +1,54 @@
+Parent Element
+.flex-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: coral;
+  padding: 20px;
+  display: flex;
+  /* Justify Content */
+  /* justify-content: space-evenly;
+  justify-content: space-between; */
+  /* Flex-Direction */
+  /* flex-direction: column-reverse; */
+  /* Flex-wrap */
+  /* flex-wrap: wrap; */
+  /* flex-flow: column wrap; */
+  justify-content: center;
+  /* Align Items */
+  /* align-items: center; */
+  
+}
+
+/* Items */
+.items {
+  /* width: 200px; */
+  background-color: yellowgreen;
+  /* height: 400px; */
+  padding: 20px;
+  margin: 10px;
+  /* Flex Order */
+}
+
+.items:nth-last-of-type(1){
+  /* flex Order */
+/* order: 3; */
+/* Flex grow */
+/* flex-grow: 3; */
+/* flex-basis: 400px; */
+/* flex: 1; */
+}
+.items:nth-last-of-type(2){
+/* order: 1; */
+/* flex-grow: 2; */
+/* flex-shrink: 0; */
+/* flex: 2; */
+align-self: center;
+}
+.items:nth-last-of-type(3){
+/* order: 2; */
+/* flex-grow: 1;
+flex-basis: 400px; */
+/* flex-shrink: 0; */
+/* flex: 3; */
+/* align-self: flex-end; */
+}
